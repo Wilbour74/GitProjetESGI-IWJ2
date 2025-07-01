@@ -1,19 +1,21 @@
 {
-  "name": "gitprojetesgi-iwj",
-  "version": "1.0.0",
-  "description": "This repository is part of a Git training project given by ESGI.   The goal is to practice Git collaboration and workflows in a small team.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@eslint/js": "^9.30.0",
-    "eslint": "^9.30.0",
-    "globals": "^16.2.0",
-    "husky": "^9.1.7"
-  }
+	"name": "gitprojetesgi-iwj",
+	"version": "1.0.0",
+	"description": "This repository is part of a Git training project given by ESGI.   The goal is to practice Git collaboration and workflows in a small team.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky",
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx,.mjs",
+		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.mjs --fix"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@eslint/js": "^9.30.0",
+		"eslint": "^9.30.0",
+		"globals": "^16.2.0",
+		"husky": "^9.1.7"
+	}
 }
